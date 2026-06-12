@@ -1,3 +1,4 @@
+// NOTE: This example uses MPI‑2 API. For MPI‑3, consider using non‑blocking collectives (MPI_Ibcast, MPI_Ireduce) and shared‑memory communicators via MPI_Comm_split_type.
 #include <mpi.h>
 #include <stdio.h>
 
